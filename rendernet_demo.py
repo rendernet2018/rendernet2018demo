@@ -176,8 +176,8 @@ def main():
   parser.add_argument('--rotate',
                       type=bool,
                       default=False,
-                      help=('Flag rotate and render an object by 360 degree in azimuth. \
-                            Overwrites early settings in azimuth.'))
+                      help=('Flag rotate and render an object by 360 degree in azimuth.'
+                            'Overwrites early settings in azimuth.'))
   args = parser.parse_args()
 
   # We use our "load_graph" function
