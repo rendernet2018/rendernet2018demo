@@ -50,7 +50,7 @@ Download the pb file and move it into the "model" folder.
 
 __Example: rotate bunny by 360 degrees__
 ```
-python rendernet_demo.py --voxel_path ./voxel/Misc/bunny.binvox --rotate
+python rendernet_demo.py --voxel_path ./voxel/Misc/bunny.binvox --rotate True
 
 convert -delay 10 -loop 0 ./render/*.png animation.gif
 ```
@@ -100,11 +100,11 @@ python rendernet_demo.py --voxel_path ./voxel/Chair/64.binvox \
 
 __Example: rotate an object by 360 degrees__
 ```
-python rendernet_demo.py --voxel_path ./voxel/Chair/64.binvox --rotate
+python rendernet_demo.py --voxel_path ./voxel/Chair/64.binvox --rotate True
 
-python rendernet_demo.py --voxel_path ./voxel/Table/0.binvox --rotate
+python rendernet_demo.py --voxel_path ./voxel/Table/0.binvox --rotate True
 
-python rendernet_demo.py --voxel_path ./voxel/Misc/tyra.binvox --rotate
+python rendernet_demo.py --voxel_path ./voxel/Misc/tyra.binvox --rotate True
 ```
 
 ## Uninstall
