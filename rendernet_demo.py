@@ -159,11 +159,11 @@ def main():
                       help="Value of elevation, between (0,360)")
   parser.add_argument('--light_azimuth',
                       type=float,
-                      default=250,
+                      default=90,
                       help="Value of azimuth for light, between (0,360)")
   parser.add_argument('--light_elevation',
                       type=float,
-                      default=60,
+                      default=90,
                       help="Value of elevation for light, between (0,360)")
   parser.add_argument('--radius',
                       type=float,
